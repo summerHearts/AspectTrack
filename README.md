@@ -1,4 +1,4 @@
-# AspectTrack
+
        如果你的公司用户基数足够大，那么根据埋点数据分析得到的反馈是非常有用的。除了第三方的埋点数据分析，比如友盟，如果我们希望自己也存一份数据，作为对友盟数据的对比，在iOS工程中如何实现呢？
        一般的埋点分为PV(界面级别的)，PA(action事件级别).下边为了减少冗余，简称PV,PA。PV中的数据一般都是静态的，与业务逻辑不相关，比如进入时间，离开时间，是否进入该界面等等。
        所以这类需求是很好处理的，一般都会让所有的controller都继承BaseViewController。这样左右的信息都基于一个类中，符合高聚合的表现。
@@ -29,7 +29,6 @@
 ![Snip20160304_5.png](http://upload-images.jianshu.io/upload_images/325120-53981a8e9cf7cd47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
     #最后的最后，如果您老人家，哦，不，小鲜肉们，觉得有用的就关注一下，不枉我写了半个小时。
-    github地址：
    
 
        
