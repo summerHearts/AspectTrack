@@ -20,6 +20,8 @@
 		23D877021C89B69F0059EE01 /* MOAspectsTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D876FD1C89B69F0059EE01 /* MOAspectsTarget.m */; };
 		23D8770C1C89B9CB0059EE01 /* BIPVBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D877081C89B9CB0059EE01 /* BIPVBase.m */; };
 		23D8770D1C89B9CB0059EE01 /* BIStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8770B1C89B9CB0059EE01 /* BIStatistics.m */; };
+		AE84085D1D19591F00C54B20 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = AE84085C1D19591F00C54B20 /* Controller.m */; };
+		AE8408601D19593800C54B20 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE84085F1D19593800C54B20 /* HttpRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,10 @@
 		23D877091C89B9CB0059EE01 /* BIPVConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPVConst.h; sourceTree = "<group>"; };
 		23D8770A1C89B9CB0059EE01 /* BIStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIStatistics.h; sourceTree = "<group>"; };
 		23D8770B1C89B9CB0059EE01 /* BIStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIStatistics.m; sourceTree = "<group>"; };
+		AE84085B1D19591F00C54B20 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		AE84085C1D19591F00C54B20 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		AE84085E1D19593800C54B20 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		AE84085F1D19593800C54B20 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,13 +129,25 @@
 		23D877061C89B9AF0059EE01 /* Track */ = {
 			isa = PBXGroup;
 			children = (
+				AE84085A1D19590A00C54B20 /* Controller */,
 				23D877071C89B9CB0059EE01 /* BIPVBase.h */,
 				23D877081C89B9CB0059EE01 /* BIPVBase.m */,
 				23D877091C89B9CB0059EE01 /* BIPVConst.h */,
 				23D8770A1C89B9CB0059EE01 /* BIStatistics.h */,
 				23D8770B1C89B9CB0059EE01 /* BIStatistics.m */,
+				AE84085E1D19593800C54B20 /* HttpRequest.h */,
+				AE84085F1D19593800C54B20 /* HttpRequest.m */,
 			);
 			path = Track;
+			sourceTree = "<group>";
+		};
+		AE84085A1D19590A00C54B20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE84085B1D19591F00C54B20 /* Controller.h */,
+				AE84085C1D19591F00C54B20 /* Controller.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23D8770C1C89B9CB0059EE01 /* BIPVBase.m in Sources */,
+				AE8408601D19593800C54B20 /* HttpRequest.m in Sources */,
 				23D876DD1C89B6140059EE01 /* ViewController.m in Sources */,
 				23D876FF1C89B69F0059EE01 /* MOAspects.m in Sources */,
+				AE84085D1D19591F00C54B20 /* Controller.m in Sources */,
 				23D877021C89B69F0059EE01 /* MOAspectsTarget.m in Sources */,
 				23D876DA1C89B6140059EE01 /* AppDelegate.m in Sources */,
 				23D8770D1C89B9CB0059EE01 /* BIStatistics.m in Sources */,
