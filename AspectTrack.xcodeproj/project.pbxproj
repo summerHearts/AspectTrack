@@ -155,6 +155,7 @@
 				TargetAttributes = {
 					23D876D11C89B6140059EE01 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AWA9R9FXT6;
 					};
 				};
 			};
@@ -315,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AWA9R9FXT6;
 				INFOPLIST_FILE = AspectTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.AspectTrack;
@@ -326,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AWA9R9FXT6;
 				INFOPLIST_FILE = AspectTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.AspectTrack;
